@@ -1,22 +1,87 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link href="https://akbridha.github.io/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://akbridha.github.io/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            color: #ffffff; /* Warna teks */
+        }
 
+        .profile-content {
+            background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang konten */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
 
-<link href="https://akbridha.github.io/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
- <script src="https://akbridha.github.io/js/bootstrap.min.js"></script>
-    
-    <head>
-    <title>Biografi Ridha Akbari</title>
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+          
+        }
+
+        /* Warna tautan yang dikunjungi */
+        a:visited {
+            color: #ffffff;
+        }
+
+        /* Warna tombol GitHub, LinkedIn, Stack Overflow */
+        .btn-primary {
+            background-color: black;
+            border-color: red;
+        }
+
+        /* Warna tombol GitHub, LinkedIn, Stack Overflow ketika di-hover */
+        .btn-primary:hover {
+            background-color: red;
+            border-color: black;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Biografi Ridha Akbari</h1>
+<div class="container text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="profile-content">
+                <img class="profile-picture" src="prof07.png" alt="Foto Profil Ridha Akbari">
+                <h1 class="mb-4">Ridha Akbari</h1>
+        
 
-<p><strong>Nama:</strong> Ridha Akbari</p>
-<p><strong>Alamat:</strong> Jl. Notojoyo. IKIP 1F-10, Karangploso, Kab. Malang, Jawa Timur</p>
-<p><strong>Email:</strong> akbridha@gmail.com</p>
-<p><strong>GitHub:</strong> <a href="https://github.com/akbridha" target="_blank">akbridha</a></p>
-<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ridha-akbari-6ab404185" target="_blank">www.linkedin.com/in/ridha-akbari-6ab404185</a></p>
+              
+
+
+                <p>
+                   
+                    <a href="mailto:akbridha@gmail.com" target="_blank" class="btn btn-primary">akbridha@gmail.com</a>
+                </p>
+                
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/akbridha" target="_blank" class="btn btn-primary">GitHub</a>
+                </p>
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/ridha-akbari-6ab404185" target="_blank" class="btn btn-primary">LinkedIn</a>
+                </p>
+                <p>
+                    <strong>Stack Overflow:</strong>
+                    <a href="https://stackoverflow.com/users/15320900/arnauth-akb" target="_blank" class="btn btn-primary">Stack Overflow</a>
+                
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
