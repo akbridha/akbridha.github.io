@@ -1,82 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- <link href="http://127.0.0.1:5500/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://127.0.0.1:5500/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1:5500/js/main.js"></script>
+    <link href="http://127.0.0.1:5500/css/styles.css" rel="stylesheet" type="text/css" />
+     -->
     <link href="https://akbridha.github.io/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://akbridha.github.io/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            font-size: 18px;
-            background-image: url('bg.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            color: #ffffff; /* Warna teks */
-        }
-
-        .profile-content {
-            font-size: 1.2rem; /* Ubah ukuran font untuk konten */
-            background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang konten */
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-        }
-
-        .profile-picture {
-            width: 250px;
-            height: 250px;
-            border-radius: 45%;
-            object-fit: cover;
-            margin-bottom: 20px;
-          
-        }
-
-        /* Warna tautan yang dikunjungi */
-        a:visited {
-            color: #ffffff;
-        }
-
-        /* Warna tombol GitHub, LinkedIn, Stack Overflow */
-        .btn-primary {
-            background-color: black;
-            border-color: red;
-        }
-
-        /* Warna tombol GitHub, LinkedIn, Stack Overflow ketika di-hover */
-        .btn-primary:hover {
-            background-color: red;
-            border-color: black;
-        }
-
-               /* Media Query untuk perangkat mobile */
-        @media (max-width: 767px) {
-            .profile-content {
-                padding: 20px; /* Ubah padding pada perangkat mobile */
-            }
-            .profile-picture {
-                width: 120px;
-                height: 120px; /* Ukuran gambar lebih kecil di perangkat mobile */
-                margin-bottom: 15px;
-            }
-            h1 {
-                font-size: 24px; /* Ukuran font judul lebih kecil di perangkat mobile */
-            }
-        }
-    </style>
+    <script src="http:akbridha.github.io/js/main.js"></script>
+    <link href="http://akbridha.github.io/css/styles.css" rel="stylesheet" type="text/css" />
+  
+    <!-- jan lupa di styles juga masih hardcode URL ip nya -->
 </head>
 <body>
 
-<div class="container text-center">
+<!-- <div class="container text-center">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="profile-content">
-                <img class="profile-picture" src="magang.png" alt="Foto Profil Ridha Akbari">
+                <img class="profile-picture fade-in" src="magang.png" alt="Foto Profil Ridha Akbari">
                 <h1 class="mb-4">Ridha Akbari</h1>
-        
-
-              
-
-
                 <p>
                    
                     <a href="mailto:akbridha@gmail.com" target="_blank" class="btn btn-primary">akbridha@gmail.com</a>
@@ -97,8 +41,65 @@
                 </p>
             </div>
         </div>
+        
+    </div>
+</div> -->
+
+
+<div class="container text-center">
+    <div class="profile-content">
+        <div class="row justify-content-center">
+            <!-- Column for Profile Picture -->
+            <div class="col-md-3">
+            <img class="profile-picture fade-in" src="magang.png" alt="Foto Profil Ridha Akbari">
+            </div>
+
+            <!-- Column for Profile Content -->
+            <div class="col-md-6">
+            
+                <h1 class="mb-4">Ridha Akbari</h1>
+                <p>
+                <a href="mailto:akbridha@gmail.com" target="_blank" class="btn btn-primary">akbridha@gmail.com</a>
+                </p>
+                <p>
+                <strong>GitHub:</strong> <a href="https://github.com/akbridha" target="_blank" class="btn btn-primary">GitHub</a>
+                </p>
+                <p>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ridha-akbari-6ab404185" target="_blank" class="btn btn-primary">LinkedIn</a>
+                </p>
+                <p>
+                <strong>Stack Overflow:</strong> <a href="https://stackoverflow.com/users/15320900/arnauth-akb" target="_blank" class="btn btn-primary">Stack Overflow</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+
+        <div class="col-md-4">
+                <div class="profile-content">
+                    <img class="profile-picture " src="sarjana.png" alt="Foto Profil Ridha Akbari">
+          
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+                <div class="profile-content">
+                    <img class="profile-picture " src="JCT.png" alt="Foto Profil Ridha Akbari">
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="profile-content">
+                <img class="profile-picture " src="JMP.png" alt="Foto Profil Ridha Akbari">
+            </div>
+        </div>
+    
+    
+    
     </div>
 </div>
+
 
 </body>
 </html>
