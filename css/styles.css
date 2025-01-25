@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
-    background-image: url('http://127.0.0.1:5500/bg.jpg');
+/*     background-image: url('http://127.0.0.1:5500/bg.jpg'); */
+    background-image: url('https://akbridha.github.io//bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
