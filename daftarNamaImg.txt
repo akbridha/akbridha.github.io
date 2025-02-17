@@ -1,0 +1,149 @@
+  sarjana.png"               JCT.png"     JMP.png" 
+            
+ 
+                111-->       
+
+               js.jpg" certif javascript"               
+               Javascript 
+       
+                kotlin.png" kotlin certif" 
+                   Kotlin
+ 
+               ITILv3.png" ITILv3 certif " 
+                
+               ITIL v3
+                
+            
+    
+
+                222-->       
+
+               Scrum.jpg" Scrum.jpg" 
+                
+               Scrum
+                
+            
+      
+
+            
+               docker.jpg" docker.jpg" 
+                
+               Docker 
+                
+            
+      
+
+            
+               postgresql.jpg" postgresql.jpg" 
+                
+               Postgresql
+                
+            
+    
+
+    333   -->
+
+      
+
+            <div card" style="width: 18rem " >
+               TOIEC.jpg" certif javascript"  
+                
+                
+               English Proficiency 
+                
+            
+      
+
+            
+               unitTest.jpg" certif UnitTest"
+                   
+                
+               UnitTest
+                
+            
+      
+
+            
+               ux.png" UX Design certif "
+                
+                
+               UX Design
+                
+            
+    
+
+    444  -->
+
+               solid.png" SOLID certif " 
+                
+               SOLID Programming Principles 
+                
+            
+      
+
+            
+               CodeChampion.jpeg" CodeChampion.jpg" 
+                
+               Code Championship
+                
+            
+      
+
+            
+               blender.png" blender certif " 
+                
+               Blender Workshop
+                
+            
+    
+
+    555 -->
+
+               softwareDev.png" softwareDev.png" 
+                
+               SDLC
+                
+            
+      
+
+            
+               azure.png" azure.png" 
+                
+               Microsoft Azure
+                
+            
+      
+
+            
+               andro_funda.png" Android Fundamental certif " 
+                
+               Android Fundamental
+                
+            
+    
+
+    666 -->
+
+               andro_beginner.png" andro_beginner certif" 
+                
+               Android Beginner 
+                
+            
+      
+
+            
+               magangCertif.png" magangCertif.png" 
+                
+               Internship
+                
+            
+      
+
+            
+               Network.png" Network.png " 
+                
+               Jaringan
+                
+            
+    
+
